@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# For loop and ls
+# shellcheck disable=SC1007
+
+current_list=$("ls")
+
+for i in $current_list ; do
+    echo "$i" | cut -d'-' -f2
+done

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# The script displays "Best School" 10 times but prints
+# "Hi" on the 9th iteration
+
+y=0
+while [ $y -lt 10 ];
+do
+	echo "Best School"
+	((y++))
+	if [[ $y -eq 9 ]]
+	then
+	echo "Hi"
+	fi
+done
