@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# The script kill the 7-highlander file
+
+killall -9 bash
