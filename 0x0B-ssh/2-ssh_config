@@ -1,0 +1,5 @@
+IdentityFile ~/.ssh/school
+Host 364-web-01
+Hostname 35.231.242.217
+User ubuntu
+PubKeyAuthentication yes
